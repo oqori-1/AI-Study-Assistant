@@ -1,0 +1,27 @@
+
+
+🛠 Phase 1 : Infrastructure & Préparation (Semaine 1)
+L'objectif est de mettre en place un environnement de développement professionnel.
+
+->Environnement : Création d'un environnement virtuel python -m venv venv.
+
+->Installation des dépendances : pip install flask spacy transformers torch pymupdf.
+
+->Structure du Code : Organisation des dossiers (Core, Static, Templates) pour une maintenance facile.
+
+->Module d'extraction (Parsing) : Développer un script pour extraire le texte propre à partir de fichiers PDF et Images (OCR).
+
+
+--------------------------------------------------------------------------------
+
+
+🧠 Phase 2 : Le Cœur de l'IA (NLP)
+Développement des fonctionnalités intelligentes à l'aide de modèles pré-entraînés.
+
+--Résumé Automatique : Implémentation du modèle BART (ou T5) pour transformer de longs cours en résumés structurés.
+
+--Générateur de Quiz : * Extraction des entités nommées (dates, noms, concepts) avec spaCy.
+
+----Génération automatique de questions QCM.
+
+--Chatbot "Mini-Prof" : Mise en place d'un moteur de réponse basé sur le contexte du document (RAG - Retrieval-Augmented Generation).
